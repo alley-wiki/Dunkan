@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Dunkan/static/css/main.6661f620.css",
+    "main.js": "/Dunkan/static/js/main.65685b0e.js",
+    "static/media/avatar.png": "/Dunkan/static/media/avatar.c5eab899822f9b21a415.png",
+    "index.html": "/Dunkan/index.html",
+    "main.6661f620.css.map": "/Dunkan/static/css/main.6661f620.css.map",
+    "main.65685b0e.js.map": "/Dunkan/static/js/main.65685b0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6661f620.css",
+    "static/js/main.65685b0e.js"
+  ]
+}
