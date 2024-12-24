@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Dunkan/static/css/main.6661f620.css",
+    "main.css": "/Dunkan/static/css/main.e0a11bcd.css",
     "main.js": "/Dunkan/static/js/main.e68deace.js",
     "static/media/avatar.jpg": "/Dunkan/static/media/avatar.01bd9b938f0574bd9b61.jpg",
     "index.html": "/Dunkan/index.html",
-    "main.6661f620.css.map": "/Dunkan/static/css/main.6661f620.css.map",
+    "main.e0a11bcd.css.map": "/Dunkan/static/css/main.e0a11bcd.css.map",
     "main.e68deace.js.map": "/Dunkan/static/js/main.e68deace.js.map"
   },
   "entrypoints": [
-    "static/css/main.6661f620.css",
+    "static/css/main.e0a11bcd.css",
     "static/js/main.e68deace.js"
   ]
 }
