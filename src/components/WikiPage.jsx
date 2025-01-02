@@ -6,13 +6,14 @@ import avatar from "./avatar.png";
 export default function WikiPage() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  const rockerInfo = {
-    name: "Ток",
-    nickname: "tok_69",
-    joinDate: "10.08.2022",
-    age: "15",
-    birthDate: "06.09.2009",
-    birthPlace: "Сибирь"
+  const peopleInfo = {
+    name: "Вадим Александрович",
+    nickname: "lord.reivun",
+    joinDate: "24.07.2022",
+    age: "19 лет",
+    birthDate: "14.01.05",
+    birthPlace: "Украина",
+    post: "Основатель, Бывший Модератор"
   };
 
   useEffect(() => {
@@ -59,64 +60,52 @@ export default function WikiPage() {
             <div className="main-info section">
               <h2>Основная информация</h2>
               <p>
-                Ток (tok_69) - участник 
-                <a href="https://discord.gg/dRu68ERWFx" className="link"> Discord-сервера Вишневых Аллей</a>, зашел на сервер 10 августа 2022 года, увидев в рекомендациях творчество 
-                <a href="/Cherru" className="link"> Черр</a>, а именно такие видео, как 
-                "<a href="https://youtu.be/88BYU18NSYQ?si=7CP50hDSjklWnrH4" className="link">Аскорбинка | animation (ft.Lololoshka, Кавински) Идеальный мир</a>" и 
-                "<a href="https://youtu.be/hpwbFvcqIjo?si=9lcM9lesrm_FBf8U" className="link">45 секунд шуток про руку (Идеальный мир) ft.Кейт, Радан, Райя</a>". 
-                В дальнейшем, начал следить за творчеством 
-                <a href="/Cherru" className="link"> Черр</a>.
-              </p>
+              Дункан (lord.reivun) - бывший и первый администратор дискорд-сервера <a href="https://alley-wiki.github.io/" className="link"> Вишневые Аллеи</a>, зашел на сервер 24 июля 2022 года, наткнувшись на работы Черр и предложив помочь с сервером.
 
-              <h2>Чем занимался после захода на сервер и причины бана</h2>
-              <p>
-                В сентябре ему банят первый аккаунт. 14 сентября 2022 года, он создаёт другой аккаунт. Этот аккаунт держится до 29-го сентября и улетает в бан. 
-                Ныне больше не используется. Создаётся 3 аккаунт, который он использует сейчас.
-              </p>
-              <p>
-                Причины бана: Хорни поведение, 5.2, оскорбление и конфликты с участниками.
-              </p>
-
-              <h2>Разбан</h2>
-              <p>
-                Проходит 370 дней с 29 сентября 2022 года, с последнего появления Тока, пока его не разбанивают. Ночью с 10 по 11 декабря 2023 года он ливает т.к. по его мнению 
-                <a href="https://alley-wiki.github.io/Sai" className="link"> Сай</a> устраивает раздачу мутов и предов всем подряд. Позже, а именно днём 11 числа, Tok возвращается обратно на 
-                <a href="https://alley-wiki.github.io/" className="link"> сервер</a>.
-              </p>
-
-              <h2>Чем занимается сейчас</h2>
-              <p>
-                Сейчас он общается с людьми, но редко.
+Проживает в городе Воронеж, учится на юриста с 2023 года. Имеет опыт в работе с ботами-дискорд, организации РП-проектов как на ВА так и на других серверах. Является одним из основателей майнкрафт-сервера "Вишнёвые Выживания".
               </p>
 
               <h2>Интересные факты</h2>
               <ul>
-                <li>Находится в браке с Рейтором больше 60 дней</li>
-                <li>Живет в Сибири</li>
-                <li>Ник в бравле: про</li>
+                <li>Создатель <a href="https://alley-wiki.github.io/" className="link"> Вишневых Аллей</a> и Вишневых Выживаний</li>
+                <li>До знакомства с <a href='/Cherru' className='link'>Черр</a> был администратором нескольких полит-рп серверов и дискорд-сервера ютубера по <a href="https://ru.wikipedia.org/wiki/Hearts_of_Iron_IV" className="link">Hearts of Iron 4</a>.</li>
+                <li>В определенный период, он добровольно ушел с поста администратора и временно был модератором.
+                Стал снова модератором дискорд-сервера <a href="https://alley-wiki.github.io/" className="link"> Вишневые Аллеи</a> но ушел из поста модератора</li>
+                <li>Были временные проблемы с алкоголем и табакокурением, на данный момент контролирует себя.</li>
+                <li>Часто менял образ персонажа и заказывал множество артов для своей новеллы, которую так и не реализовал.</li>
+                <li>Псевдоним выбрал благодаря игре "<a href="https://ru.wikipedia.org/wiki/Heroes_of_Might_and_Magic_V" className="link">Герои Меча и Магии 5</a>", взяв имя одного из второстепенных героев. Фамилия "Ворон" была основа из-за увлечения, интереса к одноимённой птице.</li>
+                <li>Увлекается такими играми как <a href="https://ru.wikipedia.org/wiki/Crusader_Kings_III" className="link">Crusader Kings 3</a>, <a href='https://ru.wikipedia.org/wiki/Honkai:_Star_Rail' className='link'>Honkai Star Rail</a>, <a href='https://ru.wikipedia.org/wiki/S.T.A.L.K.E.R._(%D1%81%D0%B5%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80)' className='link'>Stalker</a>, <a href='https://ru.wikipedia.org/wiki/Heroes_of_Might_and_Magic_(%D1%81%D0%B5%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80)' className='link'>Герои Меча и Магии</a>, <a href='https://ru.wikipedia.org/wiki/Minecraft' className='link'>Minecraft</a>.</li>
               </ul>
             </div>
 
             <div className="infobox section">
-              <h2>{rockerInfo.name}</h2>
-              <img src={avatar} alt="Ток" className="avatar" />
+              <h2>{peopleInfo.name}</h2>
+              <img src={avatar} alt="Человек" className="avatar" />
               <table>
                 <tbody>
                   <tr>
-                    <td>Должность</td>
-                    <td>Участник</td>
-                  </tr>
-                  <tr>
-                    <td>Возраст</td>
-                    <td>{rockerInfo.age}</td>
+                    <td>Никнейм</td>
+                    <td>{peopleInfo.nickname}</td>
                   </tr>
                   <tr>
                     <td>Дата захода на сервер</td>
-                    <td>{rockerInfo.joinDate}</td>
+                    <td>{peopleInfo.joinDate}</td>
+                  </tr>
+                  <tr>
+                    <td>Возраст</td>
+                    <td>{peopleInfo.age}</td>
                   </tr>
                   <tr>
                     <td>Дата рождения</td>
-                    <td>{rockerInfo.birthDate}</td>
+                    <td>{peopleInfo.birthDate}</td>
+                  </tr>
+                  <tr>
+                    <td>Место рождения</td>
+                    <td>{peopleInfo.birthPlace}</td>
+                  </tr>
+                  <tr>
+                    <td>Должность</td>
+                    <td>{peopleInfo.post}</td>
                   </tr>
                 </tbody>
               </table>
